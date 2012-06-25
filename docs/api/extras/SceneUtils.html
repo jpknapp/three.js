@@ -14,12 +14,32 @@
 
 
 <h2>Methods</h2>
+<h3>.showHierarchy( root, visible )</h3>
+<div>todo</div>
 
-<h3>.todo( [page:Vector3 todo] )</h3>
+<h3>.traverseHierarchy( root, callback )</h3>
+<div>todo</div>
+
+<h3>.createMultiMaterialObject( geometry, materials )</h3>
+<div>todo</div>
+
+<h3>.cloneObject( source )</h3>
 <div>
-todo — todo<br />
+ returns a new object that is a copy of the source object
+ works with: [page:MorphAnimMesh MorphAnimMesh], [page:SkinnedMesh SkinnedMesh], [page:Mesh Mesh], [page:Line Line], [page:Ribbon Ribbon], [page:ParticleSystem ParticleSystem], [page:Particle Particle], [page:Sprite Sprite], [page:LOD LOD], [page:Object3D Object3D]
 </div>
 
+<h3>.detach( child, parent, scene )</h3>
+<div>
+ removes child from it's parent and adds it to the scene in the same position<br />
+ assuming parent is a child of the scene<br/>
+</div>
+
+<h3>.attach( child, parent, scene)</h3>
+<div>
+ removes child from scene and adds it to parent in the same position<br />
+ assuming parent is a child of the scene<br/>
+</div>
 
 <h2>Source</h2>
 
